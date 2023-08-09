@@ -39,14 +39,17 @@ public class CollectionsAssignmentTest {
         final boolean result = CollectionsAssignment.containsDuplicates(numbers);
         assertThat(result, is(true));
 
-        numbers.remove(12);
+        // I changes the code as I couldnt remember what the index value hsould be but
+        // understand that the aim is to remove the dupilicate "12" and see if the
+        // function returns as false.
+        numbers.remove(Integer.valueOf(12));
         final boolean anotherResult = CollectionsAssignment.containsDuplicates(numbers);
         assertThat(anotherResult, is(false));
     }
 
     @Test
     @DisplayName("returns a list of elements in either collection")
-     void isInEither() {
+    void isInEither() {
         final HashSet<Integer> integers = new HashSet<>(Arrays.asList(8, 1, 5, 4, 3, 0, 6, 2, 9, 7));
 
         final ArrayList<Integer> result = CollectionsAssignment.inEither(numbers, integers);
@@ -75,11 +78,9 @@ public class CollectionsAssignmentTest {
     void mostFrequent() {
         final List<String> words = new ArrayList<>(
                 List.of(
-                    "final", "correct", "trial", "oral", "correct",
-                    "oral", "gold", "figure", "trial", "correct",
-                    "silver", "correct", "balsamic", "trial"
-                )
-        );
+                        "final", "correct", "trial", "oral", "correct",
+                        "oral", "gold", "figure", "trial", "correct",
+                        "silver", "correct", "balsamic", "trial"));
 
         final String result = CollectionsAssignment.mostFrequent(words);
 
