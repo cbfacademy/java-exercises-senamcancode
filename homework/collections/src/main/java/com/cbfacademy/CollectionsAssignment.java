@@ -151,6 +151,8 @@ public class CollectionsAssignment {
         ArrayList<Integer> integerList2 = new ArrayList<>(ints2);
 
         ArrayList<Integer> combinedIntegerList = new ArrayList<>(integerList1);
+        
+        // the retainAll function removes elements that are not present in integerList2
         combinedIntegerList.retainAll(integerList2);
 
         return combinedIntegerList;
