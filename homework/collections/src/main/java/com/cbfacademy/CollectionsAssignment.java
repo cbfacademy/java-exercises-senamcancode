@@ -1,12 +1,10 @@
 package com.cbfacademy;
 
-import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -151,7 +149,7 @@ public class CollectionsAssignment {
         ArrayList<Integer> integerList2 = new ArrayList<>(ints2);
 
         ArrayList<Integer> combinedIntegerList = new ArrayList<>(integerList1);
-        
+
         // the retainAll function removes elements that are not present in integerList2
         combinedIntegerList.retainAll(integerList2);
 
@@ -215,7 +213,8 @@ public class CollectionsAssignment {
         /*
          * For each entry in the hash map (ie string : integer), if the count is more
          * than max occurences set the maxoccurence value to the value of the count
-         * the most frequent string is the string with the key associated with the value larger than the maximum number of occurences 
+         * the most frequent string is the string with the key associated with the value
+         * larger than the maximum number of occurences
          */
         for (Map.Entry<String, Integer> entry : stringMap.entrySet()) {
             if (entry.getValue() > maxOccurrences) {
