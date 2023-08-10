@@ -59,33 +59,20 @@ public class CollectionsAssignment {
     // false)
     // dont use any LOOPS!!
     public static boolean containsDuplicates(Collection<Integer> integers) {
+        Set<Integer> integerHashSet = new HashSet<>(integers); 
 
-        List<Integer> integersList = new ArrayList<>(integers);
+        return integerHashSet.size() != integers.size(); 
 
-        Collections.sort(integersList);
-
-        boolean hasDuplicates = IntStream.range(0, integersList.size() - 1)
-                .mapToLong(operand -> integersList.get(operand + 1) -
-                        integersList.get(operand))
-                .anyMatch(value -> value == 0);
-
-        if (hasDuplicates == true) {
-            return true;
-        } else {
-            return false;
-        }
 
     }
 
+
+
     /**
-     * For future reference, this can also be done using a Hashmap, if we convert
-     * the list into a hashmap then compare the size of the list and hashmap, we can
+     This can be done using a Hashmap, if we convert the list into a hashmap then compare the size of the list and hashmap, we can
      * determine if there are any duplicates.
      * this is because hashmaps do not allow for duplicate values!!
-     * import java.HashSet;
-     * public static boolean containsDuplicates(Collection<Integer> integers) {
-     * Set<Integer> uniqueSet = new HashSet<>(integers);
-     * Return uniqueSet.size() != integers.size();}
+     
      * 
      * // 3
      * /**
