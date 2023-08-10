@@ -46,36 +46,26 @@ public class CollectionsAssignment {
      */
 
     // input: a collection of integers
-    // iterate over the collection
-    // have a way to check an element is present more than once
-    // we sort the collection in order (ascending)
-    // we use the iterator to check whether the first element is equal to the next
-    // element and so on
-    // if the element == to the next element we return true
-    // if not return false
-    // return true if that condition is satisfied
 
     // output: boolean based on if there are duplicates (true is true and false if
     // false)
     // dont use any LOOPS!!
+
+    /**
+     * This can be done using a Hashmap, if we convert the list into a hashmap then
+     * compare the size of the list and hashmap, we can
+     * determine if there are any duplicates.
+     * this is because hashmaps do not allow for duplicate values!!
+     */
     public static boolean containsDuplicates(Collection<Integer> integers) {
-        Set<Integer> integerHashSet = new HashSet<>(integers); 
+        Set<Integer> integerHashSet = new HashSet<>(integers);
 
-        return integerHashSet.size() != integers.size(); 
-
+        return integerHashSet.size() != integers.size();
 
     }
 
-
-
+    // 3
     /**
-     This can be done using a Hashmap, if we convert the list into a hashmap then compare the size of the list and hashmap, we can
-     * determine if there are any duplicates.
-     * this is because hashmaps do not allow for duplicate values!!
-     
-     * 
-     * // 3
-     * /**
      * This method returns an ArrayList containing all elements that appear in
      * either of the two collection arguments. There will be no duplicate values
      * in the resulting ArrayList. The values in the returned ArrayList must be
