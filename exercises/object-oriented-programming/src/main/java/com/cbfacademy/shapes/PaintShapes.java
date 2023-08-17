@@ -1,4 +1,4 @@
-package com.cbfacademy.shapes;
+package src.main.java.com.cbfacademy.shapes;
 
 public class PaintShapes {
     

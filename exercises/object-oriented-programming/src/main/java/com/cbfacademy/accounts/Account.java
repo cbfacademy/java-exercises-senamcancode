@@ -7,22 +7,27 @@ public class Account {
     public Account(double balance, int accountNumber) {
         this.balance = balance;
         this.accountNumber = accountNumber;
+
     }
 
-    // 
 
-    public void deposit(double depositAmount) {
-        this.balance += depositAmount;
+    public int getAccountNumber() {
+        return accountNumber;
     }
 
-    public void withdraw(double withdrawalAmount) {
-        if (withdrawalAmount>this.balance){
+    public void deposit(double amount) {
+
+        this.balance += amount;
+    }
+
+    public void withdraw(double amount) {
+        if (amount > this.balance) {
             System.out.println("not enough funds in balance.");
-        } else if (withdrawalAmount<0) {
+        } else if (amount < 0) {
             System.out.println("Cannot withdraw a negative number. Nice try!");
         } else {
-            this.balance -= withdrawalAmount;
+            this.balance -= amount;
         }
-        
     }
+
 }

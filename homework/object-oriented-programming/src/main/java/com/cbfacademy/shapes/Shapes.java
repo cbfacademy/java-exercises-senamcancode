@@ -1,14 +1,7 @@
-package com.cbfacademy.shapes;
+package src.main.java.com.cbfacademy.shapes;
 
 public class Shapes {
 
-    public double computeArea(){
-        return 
-    }
-
-    public double computePerimeter(){
-
-    }
-
+    
 }
 
