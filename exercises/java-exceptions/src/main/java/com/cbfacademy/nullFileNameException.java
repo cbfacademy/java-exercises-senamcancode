@@ -1,16 +1,16 @@
-package com.cbfacademy; 
+package com.cbfacademy;
 
-public class nullFileNameException extends Exception{
-    private final String message; 
+//This code is used to override the typical message asscociated with the exception class
 
-    public nullFileNameException(String message){
-        this.message = message; 
+public class nullFileNameException extends Exception {
+    private final String message;
+
+    public nullFileNameException(String message) {
+        this.message = message;
     }
 
-    @Override 
-    public String getMessage(){
-        return String.join(" - ", super.getMessage(), this.message); 
+    @Override
+    public String getMessage() {
+        return String.join(" - ", super.getMessage(), this.message);
     }
 }
-
-
