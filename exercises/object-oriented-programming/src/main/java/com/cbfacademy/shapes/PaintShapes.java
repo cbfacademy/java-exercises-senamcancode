@@ -1,8 +1,8 @@
-package src.main.java.com.cbfacademy.shapes;
+package com.cbfacademy.shapes;
 
 public class PaintShapes {
-    
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Rectangle deck = new Rectangle(35, 20);
         Sphere ball = new Sphere(15);
         Cylinder tank = new Cylinder(10, 30);
@@ -15,7 +15,7 @@ public class PaintShapes {
         System.out.println(duluxPaint.amount(deck));
         System.out.println(homebasePaint.amount(deck));
 
-        double totalAmountNeeded = duluxPaint.amount(deck) + duluxPaint.amount(ball) + duluxPaint.amount(tank); 
+        double totalAmountNeeded = duluxPaint.amount(deck) + duluxPaint.amount(ball) + duluxPaint.amount(tank);
 
         System.out.println(totalAmountNeeded);
 
