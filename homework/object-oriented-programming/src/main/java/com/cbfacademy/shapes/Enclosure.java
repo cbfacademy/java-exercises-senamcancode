@@ -1,4 +1,4 @@
-package src.main.java.com.cbfacademy.shapes;
+package com.cbfacademy.shapes; 
 
 public interface Enclosure {
     double calculateArea(); 

@@ -1,7 +1,7 @@
 package com.cbfacademy.cars;
 
 public class Main {
-    
+
     public static void main(String[] args) {
         // instantiate 3 car objects
         Car carOne = new Car("Volvo", "V40", 2012);
@@ -15,6 +15,6 @@ public class Main {
 
         System.out.println(carTwo.getMake());
 
-        System.out.println(carThree.getYear());  
+        System.out.println(carThree.getYear());
     }
 }

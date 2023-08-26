@@ -25,11 +25,21 @@ public class Bank extends Account {
 
     }
 
-    public void payDividend(){
-        double interestEarned = this.balance + getInterest();
+    public void updateAccount(){
+        ArrayList<Account> accountsList = new ArrayList<>();
+        for (int i = 0; i < accountsList.size(); i++){
+            if(Account instanceof SavingsAccount){
+                getInterest(); 
+            }
+        }
+    
     }
 
-}
+    // public void payDividend(){
+    //     double interestEarned = this.balance + getInterest();}
+ }
+
+
 
 // ArrayList<Account> accounts = new ArrayList<>();
 //

@@ -22,15 +22,16 @@ public class StringExercises {
 
         // char[] stringToArray = stringToConvert.toCharArray();
 
-        long totalNumOfCharType = 0;
-        // the test is expecting a long not an int
-        for (int i = 0; i < text.length(); i++) {
-            if (character == text.charAt(i)) {
-                totalNumOfCharType += 1;
-            }
+        // long totalNumOfCharType = 0;
+        // // the test is expecting a long not an int
+        // for (int i = 0; i < text.length(); i++) {
+        //     if (character == text.charAt(i)) {
+        //         totalNumOfCharType += 1;
+        //     }
 
-            return totalNumOfCharType;
-        }
+        //     return 2;  
+        // }
+        throw new RuntimeException("Not implemented");
 
     }
 

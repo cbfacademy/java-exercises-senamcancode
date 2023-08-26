@@ -1,4 +1,4 @@
-package src.main.java.com.cbfacademy.words;
+package com.cbfacademy.words; 
 
 public class ReverseCharSequence implements CharSequence {
     
