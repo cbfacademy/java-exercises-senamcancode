@@ -50,8 +50,13 @@ public class App {
         prop2.setProperty("db.user", "cbfacademy");
         prop2.setProperty("db.password", "password");
 
-        // write the file to an outpust stream with the files path
-        OutputStream configFile = new FileOutputStrem();
+        // write the file to an output stream with the files path
+        try (OutputStream configFile = new FileOutputStream("configuration.properties", true)) {
+            prop2.store(configFile, "Configuration complete");
+            System.out.println("configuration.properties file created successfully!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
