@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e23140d-0e2d-496e-ae62-7147db54e35b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/CurrentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/accounts/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/shapes/PaintShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/object-oriented-programming/src/main/java/com/cbfacademy/shapes/PaintShapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/shapes/Enclosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/shapes/Enclosure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/shapes/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/shapes/Shapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/shapes/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/shapes/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/words/CharSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/words/CharSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/words/ReverseCharSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/object-oriented-programming/src/main/java/com/cbfacademy/words/ReverseCharSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/object-oriented-programming/src/test/java/com/cbfacademy/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/object-oriented-programming/src/test/java/com/cbfacademy/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/input-output/src/main/java/com/cbfacademy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/input-output/src/main/java/com/cbfacademy/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +28,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "OOP",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/senam/Documents/Code/entry-to-tech/java-exercises-senamcancode",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
