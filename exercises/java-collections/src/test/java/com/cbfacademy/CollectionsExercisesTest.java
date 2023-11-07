@@ -104,7 +104,6 @@ public class CollectionsExercisesTest {
         assertThat(result, is(notNullValue()));
         assertThat(result.size(), is(6));
         assertThat(outputStreamCaptor.toString().trim(),
-                is("[1, 2, 3, 4, 5, 6][TypeScript, Kotlin, Python, Java, JavaScript, Rust]false")
-        );
+                is("[1, 2, 3, 4, 5, 6][TypeScript, Kotlin, Python, Java, JavaScript, Rust]false"));
     }
 }
